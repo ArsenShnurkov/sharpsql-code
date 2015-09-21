@@ -1,0 +1,33 @@
+body { font-family: Verdana, sans-serif; font-size: 12px; color:#484848; margin: 0; padding: 0 }
+
+h1, h2, h3, h4 { font-family: "Trebuchet MS", Verdana, sans-serif;}
+h1 {margin:0; padding:0; font-size: 24px;}
+h2, .content h1 {font-size: 20px;padding: 2px 10px 1px 0px;margin: 0 0 10px 0; border-bottom: 1px solid #bbbbbb; color: #444;}
+h3, .content h2 {font-size: 16px;padding: 2px 10px 1px 0px;margin: 0 0 10px 0; border-bottom: 1px solid #bbbbbb; color: #444;}
+h4, .content h3 {font-size: 12px;padding: 2px 10px 1px 0px;margin-bottom: 5px; border-bottom: 1px dotted #bbbbbb; color: #444;}
+
+#header {height:5.3em;margin:0;background-color:#507AAA;color:#f8f8f8; padding: 4px 8px 0px 6px; position:relative;}
+
+#main-menu {position: absolute;  bottom: 0px;  left:6px;}
+#main-menu ul {margin: 0;  padding: 0;}
+#main-menu li {
+  float:left;
+  list-style-type:none;
+  margin: 0px 10px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  white-space:nowrap;
+}
+#main-menu li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 4px 4px 4px 4px;
+  background: #2C4056;
+}
+#main-menu li a:hover {background:#759FCF;}
+
+#content{width: 80%; padding: 2px 10px 1px 8px;margin: 0 0 10px 0;}
+
+#sidebar{ float: right; width: 17%; position: relative; z-index: 9; min-height: 600px; padding: 0; margin: 0;}
+* html #sidebar{ width: 17%; }
